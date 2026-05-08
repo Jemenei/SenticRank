@@ -1,0 +1,43 @@
+{
+  "total_reviews": 16825,
+  "category_counts": {
+    "clean": 16155,
+    "uncertain": 575,
+    "very_suspicious": 62,
+    "suspicious": 33
+  },
+  "category_pct": {
+    "clean": 96.02,
+    "uncertain": 3.42,
+    "very_suspicious": 0.37,
+    "suspicious": 0.2
+  },
+  "suspicious_by_product_category": {
+    "Smartphones": 20,
+    "Furniture": 13,
+    "Kids": 13,
+    "Headphones": 12,
+    "HomeAppliances": 10,
+    "Sport": 8,
+    "Beauty": 8,
+    "TVs": 7,
+    "Laptops": 4
+  },
+  "suspicious_by_star_rating": {
+    "1": 35,
+    "2": 5,
+    "3": 17,
+    "4": 7,
+    "5": 31
+  },
+  "avg_text_length": {
+    "clean": 125.2,
+    "fake": 95.1
+  },
+  "helpful_votes": {
+    "clean_mean": 6.96,
+    "fake_mean": 13.09,
+    "fake_zero_pct": 13.7
+  },
+  "authors_with_3plus_fakes": {}
+}

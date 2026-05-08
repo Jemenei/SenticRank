@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Data — ignore large/generated datasets entirely
+data/raw/
+data/interim/
+data/processed/
+
+# Outputs — ignore model artifacts and large bulk outputs
+data/outputs/star_predictor/*.joblib
+data/outputs/ranking_with_fakes/
+
+# Keep small result artifacts (test_metrics.json/csv, *_confusion_matrix.json,
+# fake_detector/fake_analysis.json, top_fake_examples.csv,
+# ranking/senticrank_product_rankings.csv) — committed for review
+
+# Models (standalone files)
+*.pkl
+*.bin
+*.pt
+*.safetensors
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
